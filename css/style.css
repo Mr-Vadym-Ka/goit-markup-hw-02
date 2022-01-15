@@ -21,7 +21,6 @@ body {
 /*-- career member color #757575 --*/
 
 .list {
-    text-decoration: none;
     list-style: none;
 }
 .logo {
@@ -31,6 +30,7 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000000;
+    text-decoration: none;
 }
 .logo-first {
     font-family: "Raleway", sans-serif;
@@ -58,9 +58,13 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--button-color);
+    text-decoration: none;
 }
 .header-link:hover,
 .header-link:focus {
+    color: var(--accent-color);
+}
+.header-list .header-link.current {
     color: var(--accent-color);
 }
 .contacts-link {
@@ -143,24 +147,36 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #ffffff;
+    text-decoration: none;
 }
 .footer {
     background-color: #2f303a;
+}
+.footer-logo {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    text-decoration: none;
 }
 .footer-contacts {
     font-style: normal;
 }
 
 /*-- Разметка страницы Portfolio --*/
-.sort-btn {
+.button {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
     color: #212121;
+    text-decoration: none;
+    background-color: #f5f4fa;
 }
-.sort-btn:hover,
-.sort-btn:focus {
+.button:hover,
+.button:focus {
     background-color: #2196f3;
     color: #ffffff;
 }

@@ -14,11 +14,11 @@
 </head>
 <body>
     <header class="header">
-        <a href="#" class="logo list"><span class="logo-first">Web</span>Studio</a>
+        <a href="#" class="logo"><span class="logo-first">Web</span>Studio</a>
         <nav class="navigation">
             <ul class="header-list list">
                 <li class="header-item"><a href="./index.html" class="header-link">Студия</a></li>
-                <li class="header-item"><a href="" class="header-link">Портфолио</a></li>
+                <li class="header-item"><a href="" class="header-link current">Портфолио</a></li>
                 <li class="header-item"><a href="#contacts" class="header-link">Контакты</a></li>
             </ul>
         </nav>
@@ -31,15 +31,14 @@
     </header>
     <main>
         <h1 class="visually-hidden"></h1>
-        <div class="sort">
-            <ul class="sort-btn-list list">
-                <li><a class="sort-btn button" href="#">Все</a></li>
-                <li><a class="sort-btn button" href="#">Веб-сайты</a></li>
-                <li><a class="sort-btn button" href="#">Приложения</a></li>
-                <li><a class="sort-btn button" href="#">Дизайн</a></li>
-                <li><a class="sort-btn button" href="#">Маркетинг</a></li>
+        <section class="sort">
+            <ul class="button-list list">
+                <li><button class="button sort-btn" href="#">Все</button></li>
+                <li><button class="button sort-btn" href="#">Веб-сайты</button></li>
+                <li><button class="button sort-btn" href="#">Приложения</button></li>
+                <li><button class="button sort-btn" href="#">Дизайн</button></li>
+                <li><button class="button sort-btn" href="#">Маркетинг</button></li>
             </ul>
-        </div>
             <ul class="img-list list">
                 <li>
                     <img src="./img/portfolio-tehnokriak.jpg" alt="экран ноутбука с web">
@@ -87,9 +86,10 @@
                     <p class="ourwork-img-description">Приложение</p>
                 </li>
             </ul>
+        </section>
     </main>
     <footer class="footer">
-        <a href="#" class="logo list"><span class="logo-first">Web</span>Studio</a>
+        <a href="#" class="footer-logo"><span class="logo-first">Web</span>Studio</a>
         <address id="contacts" class="footer-contacts">
             <ul class="footer-contacts-list list">
                 <li class="contacts-item"><a href="#" class="footer-adress">г.Киев, пр-т Леси Украинки, 26</a></li>
