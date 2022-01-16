@@ -82,8 +82,7 @@ body {
 .contacts-link:focus {
     color: var(--accent-color);
 }
-.header-list .header-link.current,
-.button .button.btn-current {
+.header-list .header-link.current {
     color: var(--accent-color);
 }
 .contacts-link {
@@ -194,8 +193,9 @@ body {
     background-color: #f5f4fa;
 }
 .button:hover,
-.button:focus {
-    background-color: #2196f3;
+.button:focus,
+.button-list .button.btn-current {
+    background-color: var(--accent-color);
     color: #ffffff;
 }
 .ourwork-img-title {
